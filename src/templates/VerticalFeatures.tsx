@@ -3,7 +3,7 @@ import { Section } from '../layout/Section';
 
 const VerticalFeatures = () => (
   <Section
-    title="Working in progress"
+    title="Work in progress"
     description="We are working on this page. Please check back later."
   >
     {/*
