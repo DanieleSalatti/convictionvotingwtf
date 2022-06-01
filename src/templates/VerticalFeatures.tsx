@@ -42,7 +42,6 @@ const VerticalFeatures = () => (
           <p className="text-xl pb-8">
             👉 <a href="https://token-engineering-commons.gitbook.io/tec-handbook/archive/archived-content/conviction-voting">Conviction Voting - Token Engineering Commons</a>
           </p>
-          
         </div>
       </div>
     </Section>
