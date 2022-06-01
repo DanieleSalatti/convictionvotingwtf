@@ -16,7 +16,12 @@ const VerticalFeatures = () => (
         <div className="w-full p-6">
           <figure>
             <img src="/assets/images/conviction-voting.png" alt="Conviction Voting" />
-            <figcaption>Example of Conviction Voting [<a href="https://medium.com/commonsstack/conviction-voting-a-novel-continuous-decision-making-alternative-to-governance-62e215ad2b3d">source</a>]</figcaption>
+            <figcaption>
+              Example of Conviction Voting
+              <br/>
+              [
+                <a href="https://medium.com/commonsstack/conviction-voting-a-novel-continuous-decision-making-alternative-to-governance-62e215ad2b3d">source</a>{' '}
+                - <a href="https://sponnet.github.io/cs-sim/">simulation</a>]</figcaption>
           </figure>
         </div>
       </div>
@@ -34,6 +39,10 @@ const VerticalFeatures = () => (
           <p className="text-xl pb-8">
             👉 <a href="https://medium.com/commonsstack/conviction-voting-a-novel-continuous-decision-making-alternative-to-governance-62e215ad2b3d">Conviction Voting: A Novel Continuous Decision Making Alternative to Governance</a> by Jeff Emmett
           </p>
+          <p className="text-xl pb-8">
+            👉 <a href="https://token-engineering-commons.gitbook.io/tec-handbook/archive/archived-content/conviction-voting">Conviction Voting - Token Engineering Commons</a>
+          </p>
+          
         </div>
       </div>
     </Section>
