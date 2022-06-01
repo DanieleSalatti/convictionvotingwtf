@@ -1,33 +1,43 @@
-//import { VerticalFeatureRow } from '../feature/VerticalFeatureRow';
 import { Section } from '../layout/Section';
 
 const VerticalFeatures = () => (
-  <Section
-    title="Work in progress"
-    description="We are working on this page. Please check back later."
-  >
-    {/*
-    <VerticalFeatureRow
-      title="Your title here"
-      description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse bibendum, nunc non posuere consectetur, justo erat semper enim, non hendrerit dui odio id enim."
-      image="/assets/images/feature.svg"
-      imageAlt="First feature alt text"
-    />
-    <VerticalFeatureRow
-      title="Your title here"
-      description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse bibendum, nunc non posuere consectetur, justo erat semper enim, non hendrerit dui odio id enim."
-      image="/assets/images/feature2.svg"
-      imageAlt="Second feature alt text"
-      reverse
-    />
-    <VerticalFeatureRow
-      title="Your title here"
-      description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse bibendum, nunc non posuere consectetur, justo erat semper enim, non hendrerit dui odio id enim."
-      image="/assets/images/feature3.svg"
-      imageAlt="Third feature alt text"
-    />
-*/}
-  </Section>
+  <>
+    <Section>
+      <div className="flex flex-wrap justify-center text-center">
+        <div className="w-full p-6">
+          <p className="text-xl pb-8">
+            Conviction Voting is a decision making process in which voters continuously express their preference by staking tokens in support of proposals they would like to see approved,
+            with the conviction (i.e. weight) of their vote growing over time.
+          </p>
+          <p className="text-xl">
+            When a voter unstakes their tokens, their conviction for that proposal starts declining according to a decay function.
+          </p>
+        </div>
+        <div className="w-full p-6">
+          <figure>
+            <img src="/assets/images/conviction-voting.png" alt="Conviction Voting" />
+            <figcaption>Example of Conviction Voting [<a href="https://medium.com/commonsstack/conviction-voting-a-novel-continuous-decision-making-alternative-to-governance-62e215ad2b3d">source</a>]</figcaption>
+          </figure>
+        </div>
+      </div>
+      
+    </Section>
+    <Section
+      title="Links and resources"
+      description="Here are some links to help you understand what Conviction Voting is and how it works."
+    >
+      <div className="flex flex-wrap justify-center text-center">
+        <div className="w-full p-6">
+          <p className="text-xl pb-8">
+            👉 <a href="https://medium.com/commonsstack/announcing-the-conviction-voting-cadcad-model-release-8e907ce67e4e">Understanding Real-Time ‘Vote Streaming’</a> by Jeff Emmett
+          </p>
+          <p className="text-xl pb-8">
+            👉 <a href="https://medium.com/commonsstack/conviction-voting-a-novel-continuous-decision-making-alternative-to-governance-62e215ad2b3d">Conviction Voting: A Novel Continuous Decision Making Alternative to Governance</a> by Jeff Emmett
+          </p>
+        </div>
+      </div>
+    </Section>
+  </>
 );
 
 export { VerticalFeatures };
